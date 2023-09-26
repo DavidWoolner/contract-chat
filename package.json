@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@pinecone-database/pinecone": "0.1.6",
+    "langchain": "0.0.143",
+    "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "next": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
     "typescript": "latest",
