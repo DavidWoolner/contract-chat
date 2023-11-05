@@ -6,9 +6,8 @@ import { NextResponse } from 'next/server';
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
 
 const loader = new PDFLoader(
-  // 'src/app/docs/Local 52 Majors 2018 Searchable.pdf',
+  // 'src/app/docs/majors_contract_ocr.pdf',
   'src/app/docs/Deal Memorandum Individual -- David Woolner.pdf',
-
   { splitPages: false }
 );
 
